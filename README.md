@@ -110,3 +110,8 @@ df.max() - Devuelve el valor más alto en cada columna
 df.min() - Devuelve el valor más bajo en cada columna
 df.median() - Devuelve la media de cada columna
 df.std() - Devuelve la desviación estándar de cada colu
+
+
+*Iterar en un data frame
+for i in range(len(df)):
+    print(df.iloc[i]['first_name'])
