@@ -6,14 +6,14 @@ ________________________________________________________________________________
 ### Introducción a Pandas para el análisis de datos
 
 ### Para este listado se utiliza la abreviación:
-```
+
 df - Cualquier Objeto DataFrame Pandas
 s - Cualquier Objeto de Serie Pandas
-```
+
 
 ### Para comenzar es necesario la importación:
 
-```
+```python:
 import pandas as pd
 import numpy as np
 ```
