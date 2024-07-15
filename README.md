@@ -83,7 +83,7 @@ df.dropna(axis=1, thresh=n) - Elimina todas las filas que tienen menos de n valo
 df.fillna(x) - Remplaza todos los valores nulos por x
 s.fillna(s.mean()) - Remplaza todos los valores nulos por la media
 s.astype(float) - Convierte el tipo de datos a float
-sreplace(1, 'one') - Remplaza todos los valores iguales a 1 con 'one'
+s.replace(1, 'one') - Remplaza todos los valores iguales a 1 con 'one'
 s.repalce([1, 3], ['one', 'three']) - Remplaza todos los 1 por 'one' y 3 por 'three'
 df.rename(columns=lambda x: x + 1) - Cambio de nombre de columnas en masa
 df.rename(columns={'old_name':'new_name'}) - Renombrar seleccionando columna
@@ -133,3 +133,8 @@ df.std() - Devuelve la desviación estándar de cada colu
 for i in range(len(df)):
     print(df.iloc[i]['first_name'])
 ```
+
+### Hacer marge , Relacionar tablas como un buscarV en excel .
+¿Cómo relacionar dos dataframes con una columna?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ia_P7X4FlgA?si=6cIJX2kDel7IFEMd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
