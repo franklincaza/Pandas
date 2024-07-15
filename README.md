@@ -137,4 +137,4 @@ for i in range(len(df)):
 ### Hacer marge , Relacionar tablas como un buscarV en excel .
 ¿Cómo relacionar dos dataframes con una columna?
 
-[Comprehensive Markdown Crash Course](https://www.youtube.com/watch?v=FEa2diI2qgA)
+[video de como hacer Marge en pandas]([https://www.youtube.com/watch?v=FEa2diI2qgA](https://www.youtube.com/watch?v=Ia_P7X4FlgA))
