@@ -138,3 +138,11 @@ for i in range(len(df)):
 ¿Cómo relacionar dos dataframes con una columna?
 
 [video de como hacer Marge en pandas]([https://www.youtube.com/watch?v=FEa2diI2qgA](https://www.youtube.com/watch?v=Ia_P7X4FlgA)
+
+### Convertir columnas en fechas en un DF
+```python:
+# Suponiendo que la fecha este en este formato 20180201
+CONSOLIDACION_PASIVOS = pd.read_csv("6. CONSOLIDACION_PASIVOS.csv",sep=';', header=0)
+CONSOLIDACION_PASIVOS['fecha_apertura_credito'] = pd.to_datetime(Colpesiones['fecha_apertura_credito'], format='%Y%m%d')
+
+```
