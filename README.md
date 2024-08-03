@@ -146,3 +146,12 @@ CONSOLIDACION_PASIVOS = pd.read_csv("6. CONSOLIDACION_PASIVOS.csv",sep=';', head
 CONSOLIDACION_PASIVOS['fecha_apertura_credito'] = pd.to_datetime(Colpesiones['fecha_apertura_credito'], format='%Y%m%d')
 
 ```
+
+### Vacios en pandas 
+```python:
+# Suponiendo que la fecha este en este formato 20180201
+df=pd.NaT
+print(df)
+```
+<sup>  Salida en consola  </sup>
+> NaT
