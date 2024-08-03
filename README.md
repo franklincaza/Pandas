@@ -168,9 +168,13 @@ print(df)
 ```
 <sup>  Salida en consola  </sup>
 >  fecha   año
+> 
 > 0  2008-10-20  2008
+> 
 > 1  2012-06-15  2012
+> 
 > 2  2020-01-01  2020
+> 
 
 ### Vacios en pandas 
 ```python:
