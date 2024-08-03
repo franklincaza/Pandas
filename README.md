@@ -147,6 +147,31 @@ CONSOLIDACION_PASIVOS['fecha_apertura_credito'] = pd.to_datetime(Colpesiones['fe
 
 ```
 
+### cambiar el formato fecha 
+```python:
+import pandas as pd
+
+# Datos de ejemplo con fechas
+datos = {'fecha': ['20/10/2008', '15/06/2012', '01/01/2020']}
+
+# Crear el DataFrame
+df = pd.DataFrame(datos)
+
+# Convertir la columna 'fecha' al tipo datetime
+df['fecha'] = pd.to_datetime(df['fecha'], format='%d/%m/%Y')
+
+# Extraer el año
+df['año'] = df['fecha'].dt.year
+
+print(df)
+```python:
+```
+<sup>  Salida en consola  </sup>
+>  fecha   año
+> 0  2008-10-20  2008
+> 1  2012-06-15  2012
+> 2  2020-01-01  2020
+
 ### Vacios en pandas 
 ```python:
 # estos es para hacer un None pero con pandas.
