@@ -155,3 +155,29 @@ print(df)
 ```
 <sup>  Salida en consola  </sup>
 > NaT
+
+
+### Guardar archivos con asentos y ñ
+
+import pandas as pd
+
+# Datos de ejemplo con acentos y ñ
+
+```python:
+datospruebas = {
+    'columna1': ['acción', 'niño', 'mañana'],
+    'columna2': ['café', 'año', 'señor']
+}
+
+# Crear el DataFrame
+df = pd.DataFrame(datospruebas)
+
+# Exportar el DataFrame a un archivo CSV con codificación UTF-8
+df.to_csv('datos_con_acentos.csv', index=False, encoding='utf-8')
+
+print("DataFrame exportado correctamente a 'datos_con_acentos.csv'")
+```
+<sup>  Salida en consola  </sup>
+> DataFrame exportado correctamente a 'datos_con_acentos.csv'
+
+
