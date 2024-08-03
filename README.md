@@ -149,7 +149,7 @@ CONSOLIDACION_PASIVOS['fecha_apertura_credito'] = pd.to_datetime(Colpesiones['fe
 
 ### Vacios en pandas 
 ```python:
-# Suponiendo que la fecha este en este formato 20180201
+# estos es para hacer un None pero con pandas.
 df=pd.NaT
 print(df)
 ```
