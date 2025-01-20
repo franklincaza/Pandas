@@ -209,4 +209,14 @@ print("DataFrame exportado correctamente a 'datos_con_acentos.csv'")
 <sup>  Salida en consola  </sup>
 > DataFrame exportado correctamente a 'datos_con_acentos.csv'
 
+# como hacer lambda
 
+ Aplicamos la validación y asignamos valores a 'columna_#1'
+ 1. como hacer validacion con if.
+
+```
+df['columna_#1'] = df.apply(
+    lambda x: x['columna_#1'] if x['columna_#2'] else " ", axis=1
+)
+```
+ 2. 
